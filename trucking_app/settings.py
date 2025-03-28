@@ -12,9 +12,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-default-key-for-development')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = false
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0', '.replit.app', '.replit.dev', '*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0', '.replit.app', '.replit.dev','.onrender.com', '*']
 
 
 # Application definition
